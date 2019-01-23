@@ -1,0 +1,32 @@
+regole del gioco
+
+1. scelta difficoltà gioco & nome & data
+2. operazioni su matrice per creazione/popolamento
+3. calcolo mosse max
+4. input riga colonna (controllo errori)
+5. controllo stato bolla (1 = esplosione, 2/3 = -1, no = mancato)
+6. eventuale esplosione
+7. stampa matrice modificata
+8. stampa conto mosse diminuito
+9. scelta uscita
+10. scrivi risultati
+
+testo regole:
+Lo scopo del gioco è semplice: fai esplodere tutte le bolle prima di terminare i tentativi.
+Per fare questo dovrai indicarmi le coordinate della bolla che vuoi far esplodere.
+Appena partira' il gioco vedrai una matrice con dei numeri al suo interno.
+I tipi di bolle che puoi trovare sono 3:
+	1) Bolla in procinto di esplodere;
+	2) Bolla gonfia a metà;
+	3) Bolla sgonfia.
+Quando colpirai una bolla sgonfia (3) la gonfierai a metà, quando colpirai una bolla gonfia a metà la renderai in procinto di esplodere mentre quando colpirai una bolla in procinto di esplodere (1) la farai esplodere.
+Facendo esplodere una bolla di tipo 1 creerai un'esplosione che coinvolgerà le bolle nelle quattro direzioni rispetto a quella da te colpita!
+Ma attenzione! Le matrici partono da zero quindi se vuoi selezionare la prima colonna o la prima riga dovrai inserire 0 e non 1!
+
+Vinci quando fai esplodere tutte le bolle presenti sulla griglia, perdi se non riesci nei tentativi possibili.
+
+
+
+
+
+
